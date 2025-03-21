@@ -1,0 +1,112 @@
+body {
+  background: #ffafbd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #ffc3a0,
+    #ffafbd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #ffc3a0,
+    #ffafbd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Noto Serif KR", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main {
+  width: 800px;
+  margin: 40px auto;
+}
+header {
+  padding: 40px 0 40px;
+  text-align: center;
+}
+header h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: white;
+}
+.container {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  min-height: 500px;
+}
+.container .guide-text {
+  font-size: 11px;
+  color: #888;
+}
+.container .form-data {
+  padding: 20px 40px 10px;
+}
+.container .button-box {
+  padding: 10px 40px;
+}
+.container ul li {
+  padding: 4px 0;
+}
+.container li .list-label {
+  display: inline-block;
+  width: 160px;
+}
+.container .bottom-box {
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.container .calendar-container {
+  width: 50%;
+}
+.container .bottom-box p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  line-height: 1.6;
+  color: #666;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  padding-top: 20px;
+  font-size: 12px;
+  color: white;
+}
+.btn {
+  /* margin: 10px; */
+  outline: none;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+.btn + .btn {
+  margin-left: 10px;
+}
+.btn-1,
+.btn-2 {
+  transition: all 0.3s ease;
+}
+.btn-1:hover,
+.btn-2:hover {
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+.btn-2 {
+  color: white;
+  background-color: #666;
+  border-color: #666;
+}
+.divider {
+  width: 90%;
+  height: 1px;
+  background-color: #999;
+  margin: 0 auto;
+}
